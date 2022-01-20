@@ -2,6 +2,7 @@
 	"FileVersion": 3,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"EngineAssociation": "{DF626DFF-42A0-3671-C938-4082DAB670D9}",
 =======
 	"EngineAssociation": "{015905D3-4945-6213-AEAB-539A0EFB5022}",
@@ -9,6 +10,9 @@
 =======
 	"EngineAssociation": "{015905D3-4945-6213-AEAB-539A0EFB5022}",
 >>>>>>> 45752ae01b3d5c08056b17063caa694a8c0833a4
+=======
+	"EngineAssociation": "4.26",
+>>>>>>> parent of 45752ae (Callum; Lives Manager/Out of Bounds Trigger)
 	"Category": "",
 	"Description": ""
 }
