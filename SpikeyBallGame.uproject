@@ -1,11 +1,15 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "{165F4C84-44EC-7DA2-F944-95924FF10D18}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
 		{
 			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "RawInput",
 			"Enabled": true
 		}
 	]
