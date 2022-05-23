@@ -1,6 +1,5 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{BE557419-4AA0-B999-5C6D-C0B1954B6EFC}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -12,5 +11,6 @@
 			"Name": "RawInput",
 			"Enabled": true
 		}
-	]
+	],
+	"EngineAssociation": "4.26"
 }
