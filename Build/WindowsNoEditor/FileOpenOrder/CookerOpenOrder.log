@@ -1,634 +1,638 @@
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/BP_SpawnPoint.uasset" 0
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 1
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_CustomHats.uasset" 2
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__78.uasset" 3
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/SM_unicornhat_low.uasset" 4
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__57.uasset" 5
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/SM_Spikhat_low.uasset" 6
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/mat_DeathFloor1.uasset" 7
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/mat_DeathFloor.uasset" 8
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/Material__56.uasset" 9
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/SM_jesterhat_low.uasset" 10
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/Material__55.uasset" 11
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/SM_indianahat_low.uasset" 12
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/Material__57.uasset" 13
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/SM_icecreamhat_low.uasset" 14
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/Material__76_Slot__7.uasset" 15
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/SM_fezhat_low.uasset" 16
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Hats/SM_bobhat_low.uasset" 17
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/DataTables/D_Cosmetics.uasset" 18
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/BP_Cosmetic.uasset" 19
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Components/Com_HatCosmetic.uasset" 20
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/GameMode/BPI_Initalize.uasset" 21
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/ArrowLeftNew.uasset" 22
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/UI/UI_ControllerMouse.uasset" 23
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Controllers/C_MenuController.uasset" 24
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Managers/BP_BrawlOfBots_Instance.uasset" 25
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/GameInstance/BPI_GameInstance.uasset" 26
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Enum_CharacterStates.uasset" 27
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Enum/DataTypes/PowerUpType.uasset" 28
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_PowerUpData.uasset" 29
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/Sniper2D.uasset" 30
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/Shotgun2D.uasset" 31
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/Punchline2D.uasset" 32
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/Inked2D.uasset" 33
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/Freeze2D.uasset" 34
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/Fakeout2D.uasset" 35
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/EnergyDrink2D.uasset" 36
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/CluckinHell2D.uasset" 37
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/ButteredUp2D.uasset" 38
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Powerups/BubbleGum2D.uasset" 39
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/01_-_Default_ncl1_3.uasset" 40
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/01_-_Default_ncl1_1.uasset" 41
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_Sniper_powerup.uasset" 42
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/01_-_Default_ncl1_2.uasset" 43
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_3.uasset" 44
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_Shotgun_powerup.uasset" 45
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/Material__1432.uasset" 46
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/8_2.uasset" 47
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/7_2.uasset" 48
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/6_2.uasset" 49
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_CluckinHell_powerup.uasset" 50
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/Mat_BubbleGum.uasset" 51
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_BubbleGumBarrier_powerup.uasset" 52
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/4_2.uasset" 53
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/3_2.uasset" 54
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_BoxingGlove_powerup.uasset" 55
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraRandomnessMode.uasset" 56
-"../../Plugins/FX/Niagara/Content/Functions/GetRandomInfo.uasset" 57
-"../../Plugins/FX/Niagara/Content/Functions/RandomRangeFloat.uasset" 58
-"../../Plugins/FX/Niagara/Content/Functions/Localspace/SimulationPosition.uasset" 59
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Initialization/InitializeParticle.uasset" 60
-"../../Plugins/FX/Niagara/Content/DynamicInputs/Helpers/SimulationPosition.uasset" 61
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCoordinateSpace.uasset" 62
-"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformBase.uasset" 63
-"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformVector.uasset" 64
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/AddVelocity.uasset" 65
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraInactiveMode.uasset" 66
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraEmitterScalabilityMode_Limited.uasset" 67
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraEmitterLifeCycleMode.uasset" 68
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_InfiniteLoopDuration.uasset" 69
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_EmitterStateOptions.uasset" 70
-"../../Plugins/FX/Niagara/Content/Modules/Update/Lifetime/ParticleState.uasset" 71
-"../../Plugins/FX/Niagara/Content/Modules/Update/Color/Color.uasset" 72
-"../../Plugins/FX/Niagara/Content/Functions/DirectionAndLengthSafe.uasset" 73
-"../../Plugins/FX/Niagara/Content/Modules/Solvers/SolveForcesAndVelocity.uasset" 74
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraRandomnessEvaluation.uasset" 75
-"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomRangeFloat.uasset" 76
-"../../Plugins/FX/Niagara/Content/Modules/Emitter/SpawnBurst_Instantaneous.uasset" 77
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraExecutionStateManagement.uasset" 78
-"../../Plugins/FX/Niagara/Content/Functions/Emitter/EmitterChangeState.uasset" 79
-"../../Plugins/FX/Niagara/Content/Modules/Emitter/EmitterState.uasset" 80
-"../../Plugins/FX/Niagara/Content/Functions/Spline/FindPositionOnBezierSpline.uasset" 81
-"../../Plugins/FX/Niagara/Content/Functions/NormalizedExecutionIndex.uasset" 82
-"../../Plugins/FX/Niagara/Content/Modules/Beams/SpawnBeam.uasset" 83
-"../../Plugins/FX/Niagara/Content/Modules/Beams/BeamWidth.uasset" 84
-"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformPosition.uasset" 85
-"../../Plugins/FX/Niagara/Content/DynamicInputs/Multiply/Multiply_VectorByFloat.uasset" 86
-"../../Plugins/FX/Niagara/Content/Modules/Beams/BeamEmitterSetup.uasset" 87
-"../../Plugins/FX/Niagara/Content/DynamicInputs/ValueFromCurve/FloatFromCurve.uasset" 88
-"../../Plugins/FX/Niagara/Content/DefaultAssets/DefaultRIbbonMaterial.uasset" 89
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Emit_Shot.uasset" 90
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraSystemInactiveMode.uasset" 91
-"../../Plugins/FX/Niagara/Content/Functions/System/SystemChangeState.uasset" 92
-"../../Plugins/FX/Niagara/Content/Modules/System/SystemState.uasset" 93
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Sys_WaterShot.uasset" 94
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/MeshInterface/SampleStaticMesh.uasset" 95
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Location/StaticMeshLocation.uasset" 96
-"../../Plugins/FX/Niagara/Content/DefaultAssets/DefaultSpriteMaterial.uasset" 97
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/Material__1432.uasset" 98
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/3_2.uasset" 99
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/01_-_Default.uasset" 100
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_BoxingGlove_icon.uasset" 101
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraChannelCorrelation.uasset" 102
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_UVFlippingMode.uasset" 103
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_SpriteRotationMode.uasset" 104
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_SizeScaleMode.uasset" 105
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_PositionInitializationMode.uasset" 106
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_MassInitializationMode.uasset" 107
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_ColorInitializationMode.uasset" 108
-"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomRange.uasset" 109
-"../../Plugins/FX/Niagara/Content/Functions/LinearColor/HueShiftLinearColor.uasset" 110
-"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomRangeInteger.uasset" 111
-"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomBool.uasset" 112
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_LifetimeMode.uasset" 113
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Initialization/V2/InitializeParticle.uasset" 114
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Emit_PickUp.uasset" 115
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zack/DiscoBall/14_-_Default.uasset" 116
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zack/DiscoBall/SM_DiscoBall.uasset" 117
-"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/V3/RandomRangeLinearColor.uasset" 118
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Sys_PartyTime.uasset" 119
-"../../Plugins/FX/Niagara/Content/DynamicInputs/ValueFromCurve/ColorFromCurve.uasset" 120
-"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/V2/RandomRangeVector.uasset" 121
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Emit_Freeze.uasset" 122
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Sys_Freeze.uasset" 123
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Sys_ButtedUp.uasset" 124
-"../../Plugins/FX/Niagara/Content/Modules/Update/Size/ScaleMeshSize.uasset" 125
-"../../Plugins/FX/Niagara/Content/DynamicInputs/TypeConversions/VectorFromFloat.uasset" 126
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Emit_Bubble.uasset" 127
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Sys_BubbleGum.uasset" 128
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Geometry/Meshes/CubeMaterial.uasset" 129
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Geometry/Meshes/1M_Cube.uasset" 130
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.uasset" 131
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 132
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/VFX/lasecannon/NewMaterial.uasset" 133
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraScaleColorMode.uasset" 134
-"../../Plugins/FX/Niagara/Content/Modules/Update/Color/ScaleColor.uasset" 135
-"../../Plugins/FX/Niagara/Content/Functions/Math/RemapValueRange.uasset" 136
-"../../Plugins/FX/Niagara/Content/Functions/Rotation/MultiplyVectorWithQuaternion.uasset" 137
-"../../Plugins/FX/Niagara/Content/Functions/Rotation/FindQuatBetween.uasset" 138
-"../../Plugins/FX/Niagara/Content/Functions/PolarToCartesianCoordinates.uasset" 139
-"../../Plugins/FX/Niagara/Content/Functions/RandomVectorInCone.uasset" 140
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/AddVelocityInCone.uasset" 141
-"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/V2/RandomRangeFloat.uasset" 142
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Emit_Explosion.uasset" 143
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/VFX/Sys_Explosion.uasset" 144
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/DataTables/D_PowerUpData.uasset" 145
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/Power-up/BPI_Powerup.uasset" 146
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/Power-up/BPI_Usable.uasset" 147
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Tiles/01_-_Default.uasset" 148
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Tiles/01_-_Default_ncl1_3.uasset" 149
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Tiles/01_-_Default_ncl1_1.uasset" 150
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Tiles/Hex_Button.uasset" 151
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_PickUpData.uasset" 152
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Materials/Mat_Blue.uasset" 153
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zack/Meshes/MirrorTime/SM_MirrorTime.uasset" 154
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/8_2.uasset" 155
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Snowflake_icon.uasset" 156
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Sniper_icon.uasset" 157
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Shotgun_icon.uasset" 158
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Inked_icon.uasset" 159
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_5.uasset" 160
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_4.uasset" 161
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default.uasset" 162
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_EnergyDrink_icon.uasset" 163
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/8_3.uasset" 164
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/7_2.uasset" 165
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/6_2.uasset" 166
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_CluckinHell_icon.uasset" 167
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/01_-_Default.uasset" 168
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Butteredup_icon.uasset" 169
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_8.uasset" 170
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_2.uasset" 171
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_BubbleGumBarrier_icon.uasset" 172
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/DataTables/D_PickUpsData.uasset" 173
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/Power-up/BPI_PowerupSpawner.uasset" 174
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/SFX/SoundClasses/Music.uasset" 175
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/SFX/SoundClasses/Master.uasset" 176
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/SFX/SoundClasses/SFX.uasset" 177
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Powerup_Sound.uasset" 178
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Managers/BaseManager/BP_Manager.uasset" 179
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 180
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Camera/CameraShakes/CameraShake_Mid.uasset" 181
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Camera/CameraShakes/CameraShake_Long.uasset" 182
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Camera/CameraShakes/CameraShake_Quick.uasset" 183
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 184
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 185
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 186
-"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 187
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 188
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Enum/Enum_CameraStates.uasset" 189
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Camera/BP_PlayerViewportCamera.uasset" 190
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Assets/Icons/Map.uasset" 191
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Managers/BP_BattleMapManager.uasset" 192
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Widgets/Controller_WIP.uasset" 193
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Widgets/Controller_screen_W.uasset" 194
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/Character/BPI_PlayerController.uasset" 195
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Characters/C_BrawlOfBots.uasset" 196
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Assets/Icons/LivesManagerIcon.uasset" 197
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Falling_Death.uasset" 198
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/Map/BPI_MapFall.uasset" 199
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BPI/Invisibility_BPI.uasset" 200
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BPI/BPI_Ragdoll.uasset" 201
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Managers/BP_deathtrigger.uasset" 202
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Managers/BP_LivesManager.uasset" 203
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Enum/DataTypes/Enum_MapHazards.uasset" 204
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_EventTimerSettings.uasset" 205
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Ball_Rush.uasset" 206
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Jeremy_Blake_-_Powerup_.uasset" 207
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/DataTables/D_EventTimeIntervals.uasset" 208
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/Map/BPI_MapHazards.uasset" 209
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/MapHazards/BP_MapHazard.uasset" 210
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Xan/Enum/Enum_RollTypes.uasset" 211
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zack/Meshes/CluckInHell/07_-_Default.uasset" 212
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/PowerUpMeshes/SM_SpickyBall_low.uasset" 213
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/MapHazards/SpikeyBall/BP_SpikeyBall.uasset" 214
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__121.uasset" 215
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_spectategateB_low_Object320.uasset" 216
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_spectategateA_low_Object321.uasset" 217
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/BallRush/BP_LargeDoor.uasset" 218
-"../../../Engine/Content/VREditor/BasicMeshes/T_CleanFloorGrunge_01_D.uasset" 219
-"../../../Engine/Content/VREditor/BasicMeshes/M_Floor_01.uasset" 220
-"../../../Engine/Content/VREditor/BasicMeshes/MI_Ball_01.uasset" 221
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/RiggedCharacter/Model_Rig_For_Anims_PhysicsAsset.uasset" 222
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Assets/Confused_Logo.uasset" 223
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/UI/UI_MirrorConfused.uasset" 224
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Ragdoll.uasset" 225
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Character/01_-_Default_ncl1_InvincibleMat.uasset" 226
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_PhysicsAsset.uasset" 227
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset" 228
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset" 229
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP.uasset" 230
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialCharacter.uasset" 231
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset" 232
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset" 233
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset" 234
-"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_AnimBlueprint.uasset" 235
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Characters/TestEnemy_Char.uasset" 236
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/01_-_Default.uasset" 237
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Character/01_-_Default_ncl1_1.uasset" 238
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/RiggedCharacter/Model_Rig_For_Anims_Skeleton.uasset" 239
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/RiggedCharacter/Model_Rig_For_Anims.uasset" 240
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 241
-"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 242
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/Movement/10_Stand_Up_Front_Test.uasset" 243
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Animation/Anim_Mon_StandUp_Front.uasset" 244
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/Movement/11_Stand_Up_Back_Test.uasset" 245
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Animation/Anim_Mon_StandUp_Back.uasset" 246
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/Movement/1_Walk_Test.uasset" 247
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/Movement/3_Idle_Test.uasset" 248
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Animation/Anim_BS_Idle_Walk.uasset" 249
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/WinPoses/15_Win_Pose_4_Test.uasset" 250
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/WinPoses/14_Win_Pose_3_Test.uasset" 251
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/WinPoses/13_Win_Pose_2_Test.uasset" 252
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/WinPoses/12_Win_Pose_1_Test.uasset" 253
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/PowerUps/6_Shotgun_Hold_Test.uasset" 254
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/PowerUps/4_Dance_Bomb_Test_1.uasset" 255
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/Movement/2_Jump_Test.uasset" 256
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Animation/Anim_BP_BotCharacter.uasset" 257
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 258
-"../../../Engine/Content/BasicShapes/Cube.uasset" 259
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/misc/BP_PhysicsPlaceholder.uasset" 260
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Characters/BP_BotCharacter.uasset" 261
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/BallRush/BP_Balls.uasset" 262
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/MapHazards/BallRush/BP_BallRush.uasset" 263
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Sweeper.uasset" 264
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Sweeper/Sweeper_Updated.uasset" 265
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Sweeper/Sweeper_Mat1.uasset" 266
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Sweeper/Sweeper_Mat.uasset" 267
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Sweeper/Sweeper_BP.uasset" 268
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BPI/RaisingPlatform_BPI.uasset" 269
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Assets/Icons/EventManger.uasset" 270
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/Managers/BP_EventsManager.uasset" 271
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Buttons/LargeButtonTest.uasset" 272
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Sounds/Button_Hover.uasset" 273
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Sounds/Button_Click.uasset" 274
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Typography/bangers_regular.uasset" 275
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Typography/bangers_regular_Font.uasset" 276
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_512Button.uasset" 277
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/TickIcon.uasset" 278
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/CrossIcon.uasset" 279
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/ConfirmBG.uasset" 280
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Buttons/SmallButton.uasset" 281
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_128Button.uasset" 282
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_ConfirmScreen.uasset" 283
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/UI/MainMenu/UI_PauseMenu.uasset" 284
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Enum/GameMode/Enum_GameStates.uasset" 285
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/GameMode/GM_Base_BrawlOfBots.uasset" 286
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/GameMode/BPI_BotsGameMode.uasset" 287
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/Power-up/BPI_Pickup.uasset" 288
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/BaseClasses/BP_BasePickUp.uasset" 289
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Spawning/BP_Power-upSpawner.uasset" 290
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Assets/Icons/Powerup.uasset" 291
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_StartingPowerupSpawning.uasset" 292
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Structs/Struct_PowerUpArrayTypes.uasset" 293
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Water_Gun_Shot.uasset" 294
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/BaseClasses/BP_TargetingPowerUp.uasset" 295
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/BaseClasses/BP_Weapon.uasset" 296
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_Sniper.uasset" 297
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_Shotgun.uasset" 298
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Gun_Shot.uasset" 299
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_PunchLine.uasset" 300
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_PartyTime.uasset" 301
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_MirrorTime.uasset" 302
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Splat.uasset" 303
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zack/GetInkedSplat.uasset" 304
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Widgets/UI_Splat_Widget.uasset" 305
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_Inked.uasset" 306
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_Freeze.uasset" 307
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_FakeOut.uasset" 308
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_EnergyDrink.uasset" 309
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Explosion.uasset" 310
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Chicken.uasset" 311
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Components/Struct_PoolObject.uasset" 312
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Components/Struct_ObjectPool.uasset" 313
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/ObjectPool/BPI_PoolObject.uasset" 314
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Components/Com_ObjectPool.uasset" 315
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/Blank.uasset" 316
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/SM_pathsphere.uasset" 317
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/BP_PathProdict.uasset" 318
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_CluckInHell.uasset" 319
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_ButteredUp.uasset" 320
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/Music/Sounds/Inflate_Gum.uasset" 321
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_BubbleGumBarrier.uasset" 322
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/DataTables/D_PowerupInitSpawn.uasset" 323
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Managers/BP_PowerupManager.uasset" 324
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/BaseClasses/BP_Base_PowerUp.uasset" 325
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/Character/BPI_Character.uasset" 326
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/BP_MenuPawn.uasset" 327
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/GameMode/GM_WinGameMode.uasset" 328
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 329
-"../../../Engine/Content/BasicShapes/Cone.uasset" 330
-"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 331
-"../../../Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.uasset" 332
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 333
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 334
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 335
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 336
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 337
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 338
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 339
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 340
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 341
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 342
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 343
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 344
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 345
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 346
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 347
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 348
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 349
-"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 350
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 351
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 352
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 353
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 354
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 355
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 356
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 357
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 358
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 359
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 360
-"../../../Engine/Content/EditorResources/S_Note.uasset" 361
-"../../../Engine/Content/EditorResources/S_Solver.uasset" 362
-"../../../Engine/Content/EditorResources/S_Terrain.uasset" 363
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 364
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 365
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 366
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 367
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 368
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 369
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 370
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset" 371
-"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 372
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 373
-"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 374
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 375
-"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset" 376
-"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 377
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 378
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 379
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 380
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 381
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 382
-"../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.uasset" 383
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 384
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 385
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 386
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 387
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 388
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 389
-"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 390
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 391
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 392
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 393
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 394
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 395
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 396
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 397
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 398
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 399
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 400
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 401
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 402
-"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 403
-"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset" 404
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 405
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 406
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 407
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 408
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 409
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 410
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 411
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 412
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 413
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 414
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 415
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 416
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 417
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 418
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 419
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 420
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 421
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 422
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 423
-"../../../Engine/Content/EngineResources/Black.uasset" 424
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 425
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 426
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 427
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 428
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uasset" 429
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uasset" 430
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uasset" 431
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uasset" 432
-"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uasset" 433
-"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uasset" 434
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 435
-"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset" 436
-"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset" 437
-"../../../Engine/Content/EngineSounds/Master.uasset" 438
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 439
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 440
-"../../../Engine/Content/Maps/Templates/Thumbnails/TimeOfDay.uasset" 441
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 442
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 443
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 444
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 445
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 446
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 447
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 448
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 449
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 450
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 451
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 452
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 453
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 454
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 455
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 456
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 457
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 458
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 459
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 460
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 461
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 462
-"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 463
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 464
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 465
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 466
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 467
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 468
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 469
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 470
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 471
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 472
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 473
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 474
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 475
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 476
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 477
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 478
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 479
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 480
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 481
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 482
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 483
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 484
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 485
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 486
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 487
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 488
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 489
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 490
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 491
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 492
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 493
-"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 494
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 495
-"../../Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 496
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 497
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 498
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 499
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 500
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 501
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Character/01_-_Default.uasset" 502
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Character/Optimised_character.uasset" 503
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupTwo_RT.uasset" 504
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupThree_RT.uasset" 505
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupTen_RT.uasset" 506
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupSix_RT.uasset" 507
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupSeven_RT.uasset" 508
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupOne_RT.uasset" 509
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupNine_RT.uasset" 510
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupFour_RT.uasset" 511
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupFive_RT.uasset" 512
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupEleven_RT.uasset" 513
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/RenderTargets/PowerupEight_RT.uasset" 514
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 515
-"../../../Engine/Content/EngineMeshes/Cube.uasset" 516
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/Blank_White.uasset" 517
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__124.uasset" 518
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__123.uasset" 519
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__122.uasset" 520
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/WallMaterialTest.uasset" 521
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/WallMaterialTest_Mat.uasset" 522
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/Scene/Scene_MainMenu_BuiltData.uasset" 523
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__61.uasset" 524
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_centrearena_low.uasset" 525
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/BP_CharacterSelectionPlatform.uasset" 526
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Materials/Blank_red.uasset" 527
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_spectepillars_low_Object085.uasset" 528
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__80.uasset" 529
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__79.uasset" 530
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__77.uasset" 531
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__60.uasset" 532
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_spectateslides_low_Object126.uasset" 533
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__109.uasset" 534
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_spectateA_low_spectate_low.uasset" 535
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Invisible_mat.uasset" 536
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_collision_low.uasset" 537
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__56.uasset" 538
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__55.uasset" 539
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_arena_low.uasset" 540
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_areanpillars_low.uasset" 541
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 542
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 543
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 544
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 545
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 546
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 547
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 548
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 549
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 550
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Managers/BP_CharacterCosmeticManager.uasset" 551
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Interfaces/GameMode/BPI_MenuGameMode.uasset" 552
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DMenu.uasset" 553
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/3DWidgetBP/Widget_3DUI.uasset" 554
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/3DWidgetBP/MapManager.uasset" 555
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/GameMode/GM_MainMenu.uasset" 556
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/PlusIcon.uasset" 557
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/MinusIcon.uasset" 558
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/ArrowRightNew.uasset" 559
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/ArrowRight.uasset" 560
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/TipBox.uasset" 561
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/CharacterBG.uasset" 562
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/1500x768_Menu.uasset" 563
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_PopupText.uasset" 564
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Tex_PlayerOneRenderTarget.uasset" 565
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Mat_PlayerOneRT.uasset" 566
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_CharacterImage.uasset" 567
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Tex_PlayerTwoRenderTarget.uasset" 568
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Mat_PlayerTwoRT.uasset" 569
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Tex_PlayerThreeRenderTarget.uasset" 570
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Mat_PlayerThreeRT.uasset" 571
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Tex_PlayerFourRenderTarget.uasset" 572
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Mat_PlayerFourRT.uasset" 573
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/ArrowLeft.uasset" 574
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/HouseIcon.uasset" 575
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Buttons/TinyButton.uasset" 576
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_64Button.uasset" 577
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DSetupScreen.uasset" 578
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/SFX/SoundClasses/SoundMix.uasset" 579
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/VideoSettingsIcon.uasset" 580
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/AudioSettingsIcon.uasset" 581
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Buttons/Slider.uasset" 582
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Buttons/SettingsButton.uasset" 583
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_SettingsButtonSmall.uasset" 584
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_SettingsButton.uasset" 585
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/1024x768_Menu.uasset" 586
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DOptionsMenu.uasset" 587
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Logo/ShieldDiagonal.uasset" 588
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Logo/Logo_BG.uasset" 589
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Logo/Explosion_BG.uasset" 590
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Logo/Explosion2_BG.uasset" 591
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Logo/BoxingDiagonal.uasset" 592
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/SettingsIcon.uasset" 593
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/DoorTest.uasset" 594
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/ControllerIcon.uasset" 595
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DMainMenu.uasset" 596
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/ControlScreenPS.uasset" 597
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Iconography/ControlScreen.uasset" 598
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/750x768_Menu.uasset" 599
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/ReusableBP/Wbp_PowerupBase.uasset" 600
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DControlsMenu.uasset" 601
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Connor/Scene/Scene_MainMenu.umap" 602
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Scene/Scene_CharacterCustomisation_BuiltData.uasset" 603
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Jamie/Scene/Scene_CharacterCustomisation.umap" 604
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_slideA_low.uasset" 605
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_buttonA_low.uasset" 606
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zack/Brawl_Bots_logo_for_mat.uasset" 607
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zack/Brawl_Bots_Logo_Transparent_Mat.uasset" 608
-"../../../Engine/Content/BasicShapes/Plane.uasset" 609
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Callum/BP/BallRush/Raising_Platform_BP.uasset" 610
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/MainScene/Scene_MainScene_BuiltData.uasset" 611
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Final_Model_Skeleton.uasset" 612
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Animation/Final_Model_Dance.uasset" 613
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Material__61.uasset" 614
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Zhi/Final_Model.uasset" 615
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/01_-_Default_ncl1_8.uasset" 616
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/Power-upIcons/01_-_Default_ncl1_4.uasset" 617
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/models/6_2.uasset" 618
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/models/2_2.uasset" 619
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/Liam/models/Light_down.uasset" 620
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/SM_Nettign_low.uasset" 621
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/button1.uasset" 622
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/SM_MERGED_SM_turrettop_low_34.uasset" 623
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/SM_MERGED_SM_lightA_low_50.uasset" 624
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/button2.uasset" 625
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/SM_MERGED_BM_buttonB_low_5.uasset" 626
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_lightB.uasset" 627
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Models/BM_lightA.uasset" 628
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__81.uasset" 629
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/James_Lovell/Materials/Material__120.uasset" 630
-"../../../../../../Users/l014068j/Documents/GitHub/BrawlOfBots/Content/MainScene/Scene_MainScene.umap" 631
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 632
-"../../../Engine/Content/Maps/Entry.umap" 633
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 0
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 1
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 2
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 3
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 4
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 5
+"../../../Engine/Content/BasicShapes/Cone.uasset" 6
+"../../../Engine/Content/BasicShapes/Cube.uasset" 7
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 8
+"../../../Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.uasset" 9
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 10
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 11
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 12
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 13
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 14
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 15
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 16
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 17
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 18
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 19
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 20
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 21
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 22
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 23
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 24
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 25
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 26
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 27
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 28
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 29
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 30
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 31
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 32
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 33
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 34
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 35
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 36
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 37
+"../../../Engine/Content/EditorResources/S_Note.uasset" 38
+"../../../Engine/Content/EditorResources/S_Solver.uasset" 39
+"../../../Engine/Content/EditorResources/S_Terrain.uasset" 40
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 41
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 42
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 43
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 44
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 45
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 46
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 47
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset" 48
+"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 49
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 50
+"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 51
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 52
+"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset" 53
+"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 54
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 55
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 56
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 57
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 58
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 59
+"../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.uasset" 60
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 61
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 62
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 63
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 64
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 65
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 66
+"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 67
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 68
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 69
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 70
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 71
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 72
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 73
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 74
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 75
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 76
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 77
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 78
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 79
+"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 80
+"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset" 81
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 82
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 83
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 84
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 85
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 86
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 87
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 88
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 89
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 90
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 91
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 92
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 93
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 94
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 95
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 96
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 97
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 98
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 99
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 100
+"../../../Engine/Content/EngineResources/Black.uasset" 101
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 102
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 103
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 104
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 105
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uasset" 106
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uasset" 107
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uasset" 108
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uasset" 109
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uasset" 110
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uasset" 111
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 112
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset" 113
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset" 114
+"../../../Engine/Content/EngineSounds/Master.uasset" 115
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 116
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 117
+"../../../Engine/Content/Maps/Templates/Thumbnails/TimeOfDay.uasset" 118
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 119
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 120
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 121
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 122
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 123
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 124
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 125
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 126
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 127
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 128
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 129
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 130
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 131
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 132
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 133
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 134
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 135
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 136
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 137
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 138
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 139
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 140
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 141
+"../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset" 142
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 143
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 144
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 145
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 146
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 147
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 148
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 149
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 150
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 151
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 152
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 153
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 154
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 155
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 156
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 157
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 158
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 159
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 160
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 161
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 162
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 163
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 164
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 165
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 166
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 167
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 168
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 169
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 170
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 171
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 172
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 173
+"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 174
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 175
+"../../Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 176
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 177
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 178
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 179
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 180
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 181
+"../../../Engine/Content/EngineMeshes/Cube.uasset" 182
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Tiles/01_-_Default.uasset" 183
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/Scene/Scene_MainMenu_BuiltData.uasset" 184
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Character/01_-_Default_ncl1_1.uasset" 185
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Character/01_-_Default.uasset" 186
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Character/Optimised_character.uasset" 187
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 188
+"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 189
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/RiggedCharacter/Model_Rig_For_Anims_Skeleton.uasset" 190
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/Movement/1_Walk_Test.uasset" 191
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/01_-_Default.uasset" 192
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/RiggedCharacter/Model_Rig_For_Anims_PhysicsAsset.uasset" 193
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/RiggedCharacter/Model_Rig_For_Anims.uasset" 194
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 195
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/GameMode/BPI_Initalize.uasset" 196
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 197
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Managers/BaseManager/BP_Manager.uasset" 198
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Assets/Confused_Logo.uasset" 199
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/UI/UI_MirrorConfused.uasset" 200
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Character/01_-_Default_ncl1_InvincibleMat.uasset" 201
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Player_mats/NewMaterial_4.uasset" 202
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Player_mats/NewMaterial_3.uasset" 203
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Player_mats/NewMaterial_2.uasset" 204
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Player_mats/NewMaterial.uasset" 205
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Power-up/BPI_Powerup.uasset" 206
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_StartingPowerupSpawning.uasset" 207
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Structs/Struct_PowerUpArrayTypes.uasset" 208
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/BaseClasses/BP_TargetingPowerUp.uasset" 209
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Enum_CharacterStates.uasset" 210
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Character/BPI_Character.uasset" 211
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/BaseClasses/BP_Weapon.uasset" 212
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/SFX/SoundClasses/Music.uasset" 213
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/SFX/SoundClasses/Master.uasset" 214
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/SFX/SoundClasses/SFX.uasset" 215
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Water_Gun_Shot.uasset" 216
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BPI/BPI_Ragdoll.uasset" 217
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_Sniper.uasset" 218
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_Shotgun.uasset" 219
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Gun_Shot.uasset" 220
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_PunchLine.uasset" 221
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_PartyTime.uasset" 222
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_MirrorTime.uasset" 223
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Splat.uasset" 224
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zack/GetInkedSplat.uasset" 225
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Widgets/UI_Splat_Widget.uasset" 226
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_Inked.uasset" 227
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Freeze.uasset" 228
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_Freeze.uasset" 229
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Woah.uasset" 230
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_FakeOut.uasset" 231
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Soda_Power_up.uasset" 232
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_EnergyDrink.uasset" 233
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraScaleColorMode.uasset" 234
+"../../Plugins/FX/Niagara/Content/Modules/Update/Color/ScaleColor.uasset" 235
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraRandomnessEvaluation.uasset" 236
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCoordinateSpace.uasset" 237
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraRandomnessMode.uasset" 238
+"../../Plugins/FX/Niagara/Content/Functions/Math/RemapValueRange.uasset" 239
+"../../Plugins/FX/Niagara/Content/Functions/Rotation/MultiplyVectorWithQuaternion.uasset" 240
+"../../Plugins/FX/Niagara/Content/Functions/DirectionAndLengthSafe.uasset" 241
+"../../Plugins/FX/Niagara/Content/Functions/Rotation/FindQuatBetween.uasset" 242
+"../../Plugins/FX/Niagara/Content/Functions/PolarToCartesianCoordinates.uasset" 243
+"../../Plugins/FX/Niagara/Content/Functions/GetRandomInfo.uasset" 244
+"../../Plugins/FX/Niagara/Content/Functions/RandomRangeFloat.uasset" 245
+"../../Plugins/FX/Niagara/Content/Functions/RandomVectorInCone.uasset" 246
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformBase.uasset" 247
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformVector.uasset" 248
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/AddVelocityInCone.uasset" 249
+"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomRangeFloat.uasset" 250
+"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/V2/RandomRangeFloat.uasset" 251
+"../../Plugins/FX/Niagara/Content/DynamicInputs/TypeConversions/VectorFromFloat.uasset" 252
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraInactiveMode.uasset" 253
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraEmitterScalabilityMode_Limited.uasset" 254
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraEmitterLifeCycleMode.uasset" 255
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraChannelCorrelation.uasset" 256
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_UVFlippingMode.uasset" 257
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_SpriteRotationMode.uasset" 258
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_SizeScaleMode.uasset" 259
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_PositionInitializationMode.uasset" 260
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_MassInitializationMode.uasset" 261
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_InfiniteLoopDuration.uasset" 262
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_EmitterStateOptions.uasset" 263
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_ColorInitializationMode.uasset" 264
+"../../Plugins/FX/Niagara/Content/Modules/Update/Size/ScaleMeshSize.uasset" 265
+"../../Plugins/FX/Niagara/Content/Modules/Update/Lifetime/ParticleState.uasset" 266
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/SimulationPosition.uasset" 267
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_LifetimeMode.uasset" 268
+"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomRange.uasset" 269
+"../../Plugins/FX/Niagara/Content/Functions/LinearColor/HueShiftLinearColor.uasset" 270
+"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomRangeInteger.uasset" 271
+"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomBool.uasset" 272
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Initialization/V2/InitializeParticle.uasset" 273
+"../../Plugins/FX/Niagara/Content/Modules/Solvers/SolveForcesAndVelocity.uasset" 274
+"../../Plugins/FX/Niagara/Content/Modules/Emitter/SpawnBurst_Instantaneous.uasset" 275
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraExecutionStateManagement.uasset" 276
+"../../Plugins/FX/Niagara/Content/Functions/Emitter/EmitterChangeState.uasset" 277
+"../../Plugins/FX/Niagara/Content/Modules/Emitter/EmitterState.uasset" 278
+"../../Plugins/FX/Niagara/Content/DynamicInputs/ValueFromCurve/FloatFromCurve.uasset" 279
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/HueShift.uasset" 280
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 281
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/VFX/lasecannon/NewMaterial.uasset" 282
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Geometry/Meshes/CubeMaterial.uasset" 283
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Geometry/Meshes/1M_Cube.uasset" 284
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Emit_Explosion.uasset" 285
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraSystemInactiveMode.uasset" 286
+"../../Plugins/FX/Niagara/Content/Functions/System/SystemChangeState.uasset" 287
+"../../Plugins/FX/Niagara/Content/Modules/System/SystemState.uasset" 288
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Sys_Explosion.uasset" 289
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Components/Struct_PoolObject.uasset" 290
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Components/Struct_ObjectPool.uasset" 291
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/ObjectPool/BPI_PoolObject.uasset" 292
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Components/Com_ObjectPool.uasset" 293
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Materials/Blank.uasset" 294
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/SM_pathsphere.uasset" 295
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/BP_PathProdict.uasset" 296
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Explosion.uasset" 297
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Chicken.uasset" 298
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_CluckInHell.uasset" 299
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Buttered_Up.uasset" 300
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_ButteredUp.uasset" 301
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Inflate_Gum.uasset" 302
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Powerups/BP_BubbleGumBarrier.uasset" 303
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/DataTables/D_PowerupInitSpawn.uasset" 304
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Power-up/BPI_PowerupSpawner.uasset" 305
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Power-up/BPI_Pickup.uasset" 306
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_PickUpData.uasset" 307
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/01_-_Default.uasset" 308
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Materials/Mat_Blue.uasset" 309
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zack/Meshes/MirrorTime/SM_MirrorTime.uasset" 310
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zack/DiscoBall/14_-_Default.uasset" 311
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zack/DiscoBall/SM_DiscoBall.uasset" 312
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/8_2.uasset" 313
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Snowflake_icon.uasset" 314
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Sniper_icon.uasset" 315
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Shotgun_icon.uasset" 316
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Inked_icon.uasset" 317
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_5.uasset" 318
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_4.uasset" 319
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_3.uasset" 320
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default.uasset" 321
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_EnergyDrink_icon.uasset" 322
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/Material__1432.uasset" 323
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/8_3.uasset" 324
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/7_2.uasset" 325
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/6_2.uasset" 326
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_CluckinHell_icon.uasset" 327
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/01_-_Default.uasset" 328
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_Butteredup_icon.uasset" 329
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_8.uasset" 330
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/01_-_Default_ncl1_2.uasset" 331
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_BubbleGumBarrier_icon.uasset" 332
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/3_2.uasset" 333
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/OptamisedIcons/SM_BoxingGlove_icon.uasset" 334
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/DataTables/D_PickUpsData.uasset" 335
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Powerup_Sound.uasset" 336
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Power-up/BPI_Usable.uasset" 337
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Buttons/LargeButtonTest.uasset" 338
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Sounds/Button_Hover.uasset" 339
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Sounds/Button_Click.uasset" 340
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Typography/bangers_regular.uasset" 341
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Typography/bangers_regular_Font.uasset" 342
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_512Button.uasset" 343
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/TickIcon.uasset" 344
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/CrossIcon.uasset" 345
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/ConfirmBG.uasset" 346
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Buttons/SmallButton.uasset" 347
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_128Button.uasset" 348
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_ConfirmScreen.uasset" 349
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/UI/MainMenu/UI_PauseMenu.uasset" 350
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Structs/Struct_GameTime.uasset" 351
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Enum/GameMode/Enum_GameStates.uasset" 352
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/TimerBG.uasset" 353
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/HeartEmpty.uasset" 354
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/IngamePowerupBG.uasset" 355
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/HeartFull.uasset" 356
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_PlayerLife.uasset" 357
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_PlayerUIRight.uasset" 358
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_PlayerUILeft.uasset" 359
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Assets/Icons/LivesManagerIcon.uasset" 360
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Falling_Death.uasset" 361
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Map/BPI_MapFall.uasset" 362
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Enum/Enum_CameraStates.uasset" 363
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 364
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Camera/CameraShakes/CameraShake_Mid.uasset" 365
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Camera/CameraShakes/CameraShake_Long.uasset" 366
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Camera/CameraShakes/CameraShake_Quick.uasset" 367
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 368
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Camera/BP_PlayerViewportCamera.uasset" 369
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BPI/Invisibility_BPI.uasset" 370
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Managers/BP_deathtrigger.uasset" 371
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Managers/BP_LivesManager.uasset" 372
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/UI/MainMenu/UI_InGame.uasset" 373
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Managers/BP_BrawlOfBots_Instance.uasset" 374
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/GameInstance/BPI_GameInstance.uasset" 375
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_CustomHats.uasset" 376
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__78.uasset" 377
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/SM_unicornhat_low.uasset" 378
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__57.uasset" 379
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/SM_Spikhat_low.uasset" 380
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/mat_DeathFloor1.uasset" 381
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/mat_DeathFloor.uasset" 382
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/Material__56.uasset" 383
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/SM_jesterhat_low.uasset" 384
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/Material__55.uasset" 385
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/SM_indianahat_low.uasset" 386
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/Material__57.uasset" 387
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/SM_icecreamhat_low.uasset" 388
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/Material__76_Slot__7.uasset" 389
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/SM_fezhat_low.uasset" 390
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Hats/SM_bobhat_low.uasset" 391
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/DataTables/D_Cosmetics.uasset" 392
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/BP_Cosmetic.uasset" 393
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Components/Com_HatCosmetic.uasset" 394
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Assets/Icons/Map.uasset" 395
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Managers/BP_BattleMapManager.uasset" 396
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/BP_SpawnPoint.uasset" 397
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Widgets/Controller_WIP.uasset" 398
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Widgets/Controller_screen_W.uasset" 399
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Character/BPI_PlayerController.uasset" 400
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Character/BPI_BotsController.uasset" 401
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Characters/C_BrawlOfBots.uasset" 402
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Enum/DataTypes/Enum_MapHazards.uasset" 403
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_EventTimerSettings.uasset" 404
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Ball_Rush.uasset" 405
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Jeremy_Blake_-_Powerup_.uasset" 406
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/DataTables/D_EventTimeIntervals.uasset" 407
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/Map/BPI_MapHazards.uasset" 408
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Xan/Enum/Enum_RollTypes.uasset" 409
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/PowerUpMeshes/SM_SpickyBall_low.uasset" 410
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/MapHazards/BP_MapHazard.uasset" 411
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/MapHazards/SpikeyBall/BP_SpikeyBall.uasset" 412
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__121.uasset" 413
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_spectategateB_low_Object320.uasset" 414
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_spectategateA_low_Object321.uasset" 415
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/BallRush/BP_LargeDoor.uasset" 416
+"../../../Engine/Content/VREditor/BasicMeshes/T_CleanFloorGrunge_01_D.uasset" 417
+"../../../Engine/Content/VREditor/BasicMeshes/M_Floor_01.uasset" 418
+"../../../Engine/Content/VREditor/BasicMeshes/MI_Ball_01.uasset" 419
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/BallRush/BP_Balls.uasset" 420
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/MapHazards/BallRush/BP_BallRush.uasset" 421
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Sweeper.uasset" 422
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Sweeper/Sweeper_Updated.uasset" 423
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Sweeper/Sweeper_Mat1.uasset" 424
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Sweeper/Sweeper_Mat.uasset" 425
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Sweeper/Sweeper_BP.uasset" 426
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BPI/RaisingPlatform_BPI.uasset" 427
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Assets/Icons/EventManger.uasset" 428
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/Managers/BP_EventsManager.uasset" 429
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/GameMode/GM_Base_BrawlOfBots.uasset" 430
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/GameMode/BPI_BotsGameMode.uasset" 431
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/BaseClasses/BP_BasePickUp.uasset" 432
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Enum/DataTypes/PowerUpType.uasset" 433
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Tiles/01_-_Default_ncl1_3.uasset" 434
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Tiles/01_-_Default_ncl1_1.uasset" 435
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Tiles/Hex_Button.uasset" 436
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/Spawning/BP_Power-upSpawner.uasset" 437
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Assets/Icons/Powerup.uasset" 438
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Managers/BP_PowerupManager.uasset" 439
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Structs/StructsForDataTables/Struct_PowerUpData.uasset" 440
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/01_-_Default_ncl1_3.uasset" 441
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/01_-_Default_ncl1_2.uasset" 442
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/01_-_Default_ncl1_1.uasset" 443
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_Shotgun_powerup.uasset" 444
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/Material__1432.uasset" 445
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/8_2.uasset" 446
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/7_2.uasset" 447
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/6_2.uasset" 448
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_CluckinHell_powerup.uasset" 449
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/Mat_BubbleGum.uasset" 450
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_BubbleGumBarrier_powerup.uasset" 451
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/4_2.uasset" 452
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/3_2.uasset" 453
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_BoxingGlove_powerup.uasset" 454
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Initialization/InitializeParticle.uasset" 455
+"../../Plugins/FX/Niagara/Content/DynamicInputs/Helpers/SimulationPosition.uasset" 456
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/AddVelocity.uasset" 457
+"../../Plugins/FX/Niagara/Content/Modules/Update/Color/Color.uasset" 458
+"../../Plugins/FX/Niagara/Content/Functions/Spline/FindPositionOnBezierSpline.uasset" 459
+"../../Plugins/FX/Niagara/Content/Functions/NormalizedExecutionIndex.uasset" 460
+"../../Plugins/FX/Niagara/Content/Modules/Beams/SpawnBeam.uasset" 461
+"../../Plugins/FX/Niagara/Content/Modules/Beams/BeamWidth.uasset" 462
+"../../Plugins/FX/Niagara/Content/DynamicInputs/Multiply/Multiply_VectorByFloat.uasset" 463
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformPosition.uasset" 464
+"../../Plugins/FX/Niagara/Content/Modules/Beams/BeamEmitterSetup.uasset" 465
+"../../Plugins/FX/Niagara/Content/DefaultAssets/DefaultRIbbonMaterial.uasset" 466
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Emit_Shot.uasset" 467
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Sys_WaterShot.uasset" 468
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/PowerUPs/SM_Sniper_powerup.uasset" 469
+"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/V3/RandomRangeLinearColor.uasset" 470
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/MeshInterface/SampleStaticMesh.uasset" 471
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Location/StaticMeshLocation.uasset" 472
+"../../Plugins/FX/Niagara/Content/DefaultAssets/DefaultSpriteMaterial.uasset" 473
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Emit_PickUp.uasset" 474
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Sys_PartyTime.uasset" 475
+"../../Plugins/FX/Niagara/Content/DynamicInputs/ValueFromCurve/ColorFromCurve.uasset" 476
+"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/V2/RandomRangeVector.uasset" 477
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Emit_Freeze.uasset" 478
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Sys_Freeze.uasset" 479
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Sys_ButtedUp.uasset" 480
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Emit_Bubble.uasset" 481
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/VFX/Sys_BubbleGum.uasset" 482
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/BubbleGum2D.uasset" 483
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/Sniper2D.uasset" 484
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/Shotgun2D.uasset" 485
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/Punchline2D.uasset" 486
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/PartyTime2D.uasset" 487
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/MirrorTime2D.uasset" 488
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/Inked2D.uasset" 489
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/Freeze2D.uasset" 490
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/Fakeout2D.uasset" 491
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/EnergyDrink2D.uasset" 492
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/CluckinHell2D.uasset" 493
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Powerups/ButteredUp2D.uasset" 494
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/DataTables/D_PowerUpData.uasset" 495
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Power-ups/BaseClasses/BP_Base_PowerUp.uasset" 496
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset" 497
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Walk_Fwd.uasset" 498
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/Tutorial_Idle.uasset" 499
+"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset" 500
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/Movement/10_Stand_Up_Front_Test.uasset" 501
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Animation/Anim_Mon_StandUp_Front.uasset" 502
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/Movement/11_Stand_Up_Back_Test.uasset" 503
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Animation/Anim_Mon_StandUp_Back.uasset" 504
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/Movement/3_Idle_Test.uasset" 505
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Animation/Anim_BS_Idle_Walk.uasset" 506
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/WinPoses/15_Win_Pose_4_Test.uasset" 507
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/WinPoses/14_Win_Pose_3_Test.uasset" 508
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/WinPoses/13_Win_Pose_2_Test.uasset" 509
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/WinPoses/12_Win_Pose_1_Test.uasset" 510
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/PowerUps/6_Shotgun_Hold_Test.uasset" 511
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/PowerUps/4_Dance_Bomb_Test_1.uasset" 512
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/Movement/2_Jump_Test.uasset" 513
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Animation/Anim_BP_BotCharacter.uasset" 514
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Sounds/Ragdoll.uasset" 515
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Characters/BP_BotCharacter.uasset" 516
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Managers/BP_CharacterCosmeticManager.uasset" 517
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/ArrowLeftNew.uasset" 518
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/UI/UI_ControllerMouse.uasset" 519
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/BP_MenuPawn.uasset" 520
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/GameMode/GM_WinGameMode.uasset" 521
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/GameMode/BPI_WiningStateGameMode.uasset" 522
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Controllers/C_MenuController.uasset" 523
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Interfaces/GameMode/BPI_MenuGameMode.uasset" 524
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DMenu.uasset" 525
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/3DWidgetBP/Widget_3DUI.uasset" 526
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/3DWidgetBP/MapManager.uasset" 527
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/Music/Quincas_Moreira_-_Robot_City.uasset" 528
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/GameMode/GM_MainMenu.uasset" 529
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/PlusIcon.uasset" 530
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/TipBox.uasset" 531
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/CharacterBG.uasset" 532
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/1500x768_Menu.uasset" 533
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_PopupText.uasset" 534
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Tex_PlayerOneRenderTarget.uasset" 535
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Mat_PlayerOneRT.uasset" 536
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_CharacterImage.uasset" 537
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Tex_PlayerTwoRenderTarget.uasset" 538
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Mat_PlayerTwoRT.uasset" 539
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Tex_PlayerThreeRenderTarget.uasset" 540
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Mat_PlayerThreeRT.uasset" 541
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Tex_PlayerFourRenderTarget.uasset" 542
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/RenderTargets/Mat_PlayerFourRT.uasset" 543
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/MinusIcon.uasset" 544
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/HouseIcon.uasset" 545
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/ArrowRightNew.uasset" 546
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Buttons/TinyButton.uasset" 547
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_64Button.uasset" 548
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DSetupScreen.uasset" 549
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Materials/WallMaterialTest.uasset" 550
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Materials/WallMaterialTest_Mat.uasset" 551
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Materials/Blank_White.uasset" 552
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Materials/Blank_red.uasset" 553
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/SFX/SoundClasses/SoundMix.uasset" 554
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/VideoSettingsIcon.uasset" 555
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/AudioSettingsIcon.uasset" 556
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Buttons/Slider.uasset" 557
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Buttons/SettingsButton.uasset" 558
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_SettingsButtonSmall.uasset" 559
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_SettingsButton.uasset" 560
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/1024x768_Menu.uasset" 561
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DOptionsMenu.uasset" 562
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Logo/ShieldDiagonal.uasset" 563
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Logo/Logo_BG.uasset" 564
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Logo/Explosion_BG.uasset" 565
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Logo/Explosion2_BG.uasset" 566
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Logo/BoxingDiagonal.uasset" 567
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/SettingsIcon.uasset" 568
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/DoorTest.uasset" 569
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/ControllerIcon.uasset" 570
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DMainMenu.uasset" 571
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/ControlScreenPS.uasset" 572
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Iconography/ControlScreen.uasset" 573
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/UI/Images/Backgrounds/750x768_Menu.uasset" 574
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/ReusableBP/Wbp_PowerupBase.uasset" 575
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/3DWidgetBP/WBp_3DControlsMenu.uasset" 576
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Invisible_mat.uasset" 577
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_collision_low.uasset" 578
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 579
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 580
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 581
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 582
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 583
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 584
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 585
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 586
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 587
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Connor/Scene/Scene_MainMenu.umap" 588
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Final_Model_Skeleton.uasset" 589
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Material__61.uasset" 590
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Final_Model.uasset" 591
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/MainScene/Scene_MainScene_BuiltData.uasset" 592
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zhi/Animation/Final_Model_Dance.uasset" 593
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/01_-_Default_ncl1_8.uasset" 594
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/Power-upIcons/01_-_Default_ncl1_4.uasset" 595
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/models/6_2.uasset" 596
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/models/2_2.uasset" 597
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Liam/models/Light_down.uasset" 598
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/SM_Nettign_low.uasset" 599
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__56.uasset" 600
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__55.uasset" 601
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/button1.uasset" 602
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/SM_MERGED_SM_turrettop_low_34.uasset" 603
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/SM_MERGED_SM_lightA_low_50.uasset" 604
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/button2.uasset" 605
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/SM_MERGED_BM_buttonB_low_5.uasset" 606
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_lightB.uasset" 607
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__77.uasset" 608
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__60.uasset" 609
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_lightA.uasset" 610
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__81.uasset" 611
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__124.uasset" 612
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__123.uasset" 613
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__122.uasset" 614
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__120.uasset" 615
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_spectepillars_low_Object085.uasset" 616
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__80.uasset" 617
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__79.uasset" 618
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_spectateslides_low_Object126.uasset" 619
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__109.uasset" 620
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_spectateA_low_spectate_low.uasset" 621
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_slideA_low.uasset" 622
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_buttonA_low.uasset" 623
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_arena_low.uasset" 624
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_areanpillars_low.uasset" 625
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zack/Brawl_Bots_logo_for_mat.uasset" 626
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Zack/Brawl_Bots_Logo_Transparent_Mat.uasset" 627
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Materials/Material__61.uasset" 628
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/James_Lovell/Models/BM_centrearena_low.uasset" 629
+"../../../Engine/Content/BasicShapes/Plane.uasset" 630
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Callum/BP/BallRush/Raising_Platform_BP.uasset" 631
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/MainScene/Scene_MainScene.umap" 632
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Scene/Scene_CharacterCustomisation_BuiltData.uasset" 633
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Blueprint/Characters/Customisation/BP_CharacterSelectionPlatform.uasset" 634
+"D:/Design and Programming/Level 6- Year 3/SeniorCollab/SpikeyBall/BrawlOfBots/Content/Jamie/Scene/Scene_CharacterCustomisation.umap" 635
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 636
+"../../../Engine/Content/Maps/Entry.umap" 637
