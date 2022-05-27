@@ -1,5 +1,6 @@
 {
 	"FileVersion": 3,
+	"EngineAssociation": "{74695505-4BD4-27BB-D398-98BC3C457E26}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -7,6 +8,5 @@
 			"Name": "EditorScriptingUtilities",
 			"Enabled": true
 		}
-	],
-	"EngineAssociation": "4.26"
+	]
 }
